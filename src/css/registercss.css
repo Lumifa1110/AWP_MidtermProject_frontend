@@ -1,0 +1,51 @@
+.register-wrapper {
+  height: 100%;
+  background: linear-gradient(45deg, #00beff, #8a2be2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+}
+
+.register-box {
+  position: relative;
+  background-color: white;
+  width: 396px;
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px black;
+  padding: 1rem;
+  margin: 8rem;
+}
+
+.field {
+  margin-bottom: 0 !important ;
+  margin-top: 1.5rem;
+}
+
+.customScroll {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  flex: 1 1 auto;
+  width: 1%;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.fullname-field {
+  margin: 1.3rem 0;
+}
+
+/* .password-field, .username-field, .confirm-password-field, .email-field {
+  
+  margin-bottom: 0;
+} */
+
+.create-account,
+.forgot-password {
+  font-size: 12px;
+  text-align: left !important;
+  opacity: 0.5;
+}

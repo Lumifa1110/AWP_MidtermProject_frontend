@@ -1,0 +1,60 @@
+.wrapper {
+  height: 100vh;
+  background: linear-gradient(45deg, #00BEFF, #8a2be2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+}
+
+.box {
+  position: relative;
+  background-color: white;
+  width: 396px;
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px black;
+  padding: 1rem;
+  margin-bottom: 50px;
+}
+
+.field {
+  margin-bottom: 0 !important ;
+}
+
+.field-checkbox {
+  margin-top: 1.3rem;
+  opacity: 0.7;
+  font-size: 13px;
+}
+
+.username-field {
+  margin: 1.3rem 0;
+}
+
+.password-field {
+  margin-top: 1.3rem;
+  margin-bottom: 0;
+}
+
+.create-account, .forgot-password {
+  font-size: 12px;
+  text-align: left !important;
+  opacity: 0.5;
+}
+
+.back-button {
+  position: absolute;
+  top: 25px;
+  left: 15px;
+}
+
+.back-button:hover {
+  animation: linear-rtol 0.5s infinite;
+}
+
+@keyframes linear-rtol {
+  from { left: 20px }
+  to { left: 15px }
+}
